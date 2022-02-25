@@ -2,6 +2,8 @@ import React from "react";
 import logo from "../../logo.svg";
 import styles from "./App.module.scss";
 import CharacterList from "../CharacterList";
+import CharacterData from "../CharacterData";
+import SortAndFilter from "../SortAndFilter";
 
 // Character list is available in the public directory
 
@@ -14,7 +16,13 @@ export default function App() {
             </header>
 
             <section className={styles["App-content"]}>
-                <CharacterList />
+                <CharacterData>
+                    {(data) => (
+                        <SortAndFilter data={data}>
+                            {(sortedData) => <CharacterList data={sortedData} />}
+                        </SortAndFilter>
+                    )}
+                </CharacterData>
             </section>
         </div>
     );
