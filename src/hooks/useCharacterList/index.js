@@ -1,7 +1,7 @@
 import React from "react";
 
 const useCharacterList = () => {
-    const [isLoading, setIsLoading] = React.useState(false);
+    const [isLoading, setIsLoading] = React.useState(true);
     const [error, setError] = React.useState(null);
     const [data, setData] = React.useState(null);
 
@@ -21,7 +21,6 @@ const useCharacterList = () => {
         };
         fetch();
     }, []);
-
     return { isLoading, error, data };
 };
 
