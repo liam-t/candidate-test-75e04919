@@ -13,7 +13,7 @@ export default function App() {
                 <h1 className="App-title">Lord of the Rings Character Index</h1>
             </header>
 
-            <section className="App-content">
+            <section className={styles["App-content"]}>
                 <CharacterList />
             </section>
         </div>
