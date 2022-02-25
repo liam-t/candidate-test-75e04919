@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,MAAM,CAAC;EACH,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,QAAQ,EAAE,MAAM;EAChB,aAAa,EAAE,GAAG;CAGO;;AAR7B,AAMI,MANE,CAMF,GAAG,CAAC;EACA,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,IAAI;CAAG",
+    "sources": [
+        "Avatar.module.sass"
+    ],
+    "names": [],
+    "file": "Avatar.module.css"
+}
