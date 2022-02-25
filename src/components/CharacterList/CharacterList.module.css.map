@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,aAAa,CAAC;EACV,QAAQ,EAAE,QAAQ;EAClB,UAAU,EAAE,KAAK;CAAG",
+    "sources": [
+        "CharacterList.module.sass"
+    ],
+    "names": [],
+    "file": "CharacterList.module.css"
+}
