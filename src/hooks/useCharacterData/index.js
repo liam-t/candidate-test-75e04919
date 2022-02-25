@@ -1,6 +1,6 @@
 import React from "react";
 
-const useCharacterList = () => {
+const useCharacterData = () => {
     const [isLoading, setIsLoading] = React.useState(true);
     const [error, setError] = React.useState(null);
     const [data, setData] = React.useState(null);
@@ -24,4 +24,4 @@ const useCharacterList = () => {
     return { isLoading, error, data };
 };
 
-export default useCharacterList;
+export default useCharacterData;
