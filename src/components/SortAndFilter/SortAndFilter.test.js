@@ -60,7 +60,7 @@ it("renders a sorting option select with alphabetical and significanceIndex opti
     expect(sortingSelectElement).toBeInTheDocument();
     expect(sortingSelectElementOptionObjs).toEqual([
         {
-            name: "Name",
+            name: "Alphabetical",
             value: "name"
         },
         {

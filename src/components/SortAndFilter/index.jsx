@@ -5,7 +5,7 @@ import style from "./SortAndFilter.module.sass";
 const SortAndFilter = ({ data, children }) => {
     const sortingOptions = [
         {
-            name: "Name",
+            name: "Alphabetical",
             value: "name",
             sortingFunction: (a, b) => a.name.localeCompare(b.name)
         },
