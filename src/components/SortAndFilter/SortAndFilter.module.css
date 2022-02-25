@@ -1,0 +1,52 @@
+.outer label {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 3px;
+}
+
+.outer select {
+    width: 100%;
+    text-transform: capitalize;
+}
+
+@media (min-width: 340px) {
+    .outer select {
+        width: auto;
+    }
+}
+
+.outer select option {
+    text-transform: capitalize;
+}
+
+.uiContainer {
+    padding: 10px 0;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 340px) {
+    .uiContainer {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        padding: 20px;
+    }
+}
+
+.selectLabelWrapper {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.selectLabelWrapper:last-of-type {
+    margin-bottom: 0;
+}
+
+@media (min-width: 340px) {
+    .selectLabelWrapper {
+        margin-bottom: 0;
+    }
+}
+/*# sourceMappingURL=SortAndFilter.module.css.map */
