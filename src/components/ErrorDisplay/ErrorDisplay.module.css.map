@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,MAAM,CAAC;EACH,KAAK,EAAE,GAAG;EACV,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,MAAM;EAClB,UAAU,EAAE,IAAI;EAChB,SAAS,EAAE,IAAI;EACf,QAAQ,EAAE,IAAI;EACd,MAAM,EAAE,GAAG,CAAC,KAAK,CAAC,kBAAe;EACjC,OAAO,EAAE,IAAI;CAAG",
+    "sources": [
+        "ErrorDisplay.module.sass"
+    ],
+    "names": [],
+    "file": "ErrorDisplay.module.css"
+}
